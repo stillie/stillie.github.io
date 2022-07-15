@@ -31,6 +31,14 @@ Then clone it to your local machine and run:
 bundle
 ```
 
+## Deployment
+
+Use the following command to generate production ready code `(files and folders in _site directory)` that can be copied to your server or hosting provider
+
+```bash
+ JEKYLL_ENV=production bundle exec jekyll b
+```
+
 ## Usage
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
