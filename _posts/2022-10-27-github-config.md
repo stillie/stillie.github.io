@@ -7,8 +7,6 @@ tags: [git,terminal]
 
 In this post I will show you how to configure your Git username and email
 
-<!--more-->
-
 # Config Git for the entire system
 
 Your username and email are linked to all commits on your machine. When you set these values, every commit done on a repository will have the details you set in the following commands.
