@@ -1,5 +1,12 @@
+---
+title: CV
+icon: fas fa-info-circle
+order: 5
+published: false
+---
+# CV
 > Ryan van der Westhuizen Mobile Tech Lead\
-> 203 Blaauwberg Road, Tableview\
+> 203 Blaauwberg Road, Tableview
 > Cape Town, 7441
 >
 > **SKILLS**
