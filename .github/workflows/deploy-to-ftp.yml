@@ -26,7 +26,8 @@ jobs:
     - name: Upload site to FTP.
       env: 
         ftp_location: ${{ secrets.FTP_LOCATION }} # Pass in required secrets.
-        ftp_username: ${{ secrets.FTP_USERNAME }}
-        ftp_password: ${{ secrets.FTP_PASSWORD }} 
+        ftp_username: ${{ secrets.FTP_USERNAME }} #someawesomeftpusername
+        ftp_password: ${{ secrets.FTP_PASSWORD }} # somesuperstrongpassword
+        ftp_folder: ${{ secrets.FTP_FOLDER }} # /public_html
       run: |
-        ncftpput -R -v -u "$ftp_username" -p "$ftp_password" $ftp_location /public_html _site/* 
+        ncftpput -R -v -u "$ftp_username" -p "$ftp_password" $ftp_location $ftp_folder _site/* 
