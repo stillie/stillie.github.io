@@ -5,8 +5,6 @@ categories: [Development]
 tags: [github-actions,jekyll,ftp,yml,yaml]
 ---
 
-# Deploy a Jekyll website using FTP using Github Actions
-
 I recently was figuring out the best way to automatically deploy my website using GitHub Actions and found that it can be done using FTP to my website host.
 
 The best way I found was to use the following YAML file:
