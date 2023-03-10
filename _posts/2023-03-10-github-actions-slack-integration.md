@@ -1,7 +1,7 @@
 ---
 title: How to Integrate GitHub Actions with Slack Bots
 date: 2023-04-10
-categories: [Development,Slack,Github-Actions]
+categories: [Development]
 tags: [github-actions,slack-bot,integration]
 ---
 
