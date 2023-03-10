@@ -5,8 +5,6 @@ categories: [Development]
 tags: [github-actions,slack-bot,integration]
 ---
 
-# How to Integrate GitHub Actions with Slack Bots
-
 GitHub Actions is a powerful automation tool that allows you to build, test, and deploy your code directly from GitHub. Slack, on the other hand, is a popular collaboration tool that many teams use to communicate and stay organized. Integrating GitHub Actions with Slack bots can be a useful way to keep your team informed when a certain event occurs in your GitHub repository. In this tutorial, we'll show you how to set up this integration step-by-step.
 
 ## Step 1: Create a new Slack bot
