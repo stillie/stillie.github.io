@@ -26,7 +26,7 @@ title: Stillie                          # the main title
 tagline: My portfolio   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A site for my personal documentation of processes that I constantly forget. Sharing for all to see at the same time :)
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://www.stillie.co.za'
@@ -41,7 +41,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Stillie
-  email: ryan@stillie.co.za             # change to your email address
+  email: info@stillie.co.za             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/stillie       # change to your github homepage
