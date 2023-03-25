@@ -26,7 +26,7 @@ title: Stillie                          # the main title
 tagline: My portfolio   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A site for my personal documentation of processes that I constantly forget. Sharing for all to see at the same time :)
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://www.stillie.co.za'
@@ -41,7 +41,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Stillie
-  email: ryan@stillie.co.za             # change to your email address
+  email: info@stillie.co.za             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/stillie       # change to your github homepage
@@ -50,13 +50,13 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: IjoULJi_fMdkkx2y3OFhbN00QUPkpQjLdjfoO1uou_w               # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: UA-101833720-1  # fill in your Google Analytics ID
+  id: UA-101833720-1                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -110,10 +110,10 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled:      # boolean, keep empty means false
+    enabled: true     # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env:          # [development|production]
+    env: development          # [development|production]
 
 pwa:
   enabled: true   # the option for PWA feature
